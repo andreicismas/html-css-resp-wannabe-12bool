@@ -18,13 +18,7 @@
   text-align: center;
 }
 
-/* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-}
+
 
 #steps {
   text-align: center;
@@ -65,4 +59,20 @@ img {
 
 .clear {
   clear: both;
+}
+
+
+@media all and (max-width:767px){
+  #lezioni.container {
+    background-color: #F2F2CD;
+    
+    }
+
+    .row{
+      margin-top: 0;
+    }
+
+    img{
+      height: 100px;
+    }
 }
