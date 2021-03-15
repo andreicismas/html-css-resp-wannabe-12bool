@@ -64,15 +64,19 @@ img {
 
 @media all and (max-width:767px){
   #lezioni.container {
+  background-color: #F2F2CD;
+  
+  }
+
+  .row{
+    margin-top: 0;
+  }
+
+  img{
+    height: 100px;
+  }
+
+  #why.container.grey{
     background-color: #F2F2CD;
-    
-    }
-
-    .row{
-      margin-top: 0;
-    }
-
-    img{
-      height: 100px;
-    }
+  }
 }
