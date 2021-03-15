@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .row {
   width: 1920;
   margin-left: auto;
@@ -65,6 +71,7 @@ img {
 @media all and (max-width:767px){
   #lezioni.container {
   background-color: #F2F2CD;
+  color: blue;
   
   }
 
@@ -78,5 +85,18 @@ img {
 
   #why.container.grey{
     background-color: #F2F2CD;
+    color: blue;
   }
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+  #lezioni.container {
+    background-color: #d3f2cd;
+    text-decoration: underline blue;
+  }
+  #why.container.grey{
+    background-color: #d3f2cd;
+    text-decoration: underline red;
+  }
+    
 }
